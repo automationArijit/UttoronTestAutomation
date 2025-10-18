@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Uttoron Suite">
+    <test name="Uttoron Test Classes" thread-count="5">
+        <classes>
+            
+            <class name="uttoronTestClasses.UttoronLoginPageTest"/>
+            <class name="uttoronTestClasses.UttoronRegisterPageTest"/>
+        </classes>
+    </test>
+</suite>
