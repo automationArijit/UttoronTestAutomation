@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-17T12:38:04 IST" name="Uttoron Suite" finished-at="2025-10-17T12:38:53 IST" duration-ms="48141">
+  <suite started-at="2025-10-18T21:27:47 IST" name="Uttoron Suite" finished-at="2025-10-18T21:28:42 IST" duration-ms="54572">
     <groups>
     </groups>
-    <test started-at="2025-10-17T12:38:04 IST" name="Uttoron Test Classes" finished-at="2025-10-17T12:38:53 IST" duration-ms="48141">
+    <test started-at="2025-10-18T21:27:47 IST" name="Uttoron Test Classes" finished-at="2025-10-18T21:28:42 IST" duration-ms="54572">
       <class name="uttoronTestClasses.UttoronRegisterPageTest">
-        <test-method is-config="true" signature="browserOpen()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@7a8c8dcf]" started-at="2025-10-17T12:38:23 IST" name="browserOpen" finished-at="2025-10-17T12:38:32 IST" duration-ms="8893" status="PASS">
+        <test-method is-config="true" signature="browserOpen()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@7a8c8dcf]" started-at="2025-10-18T21:28:14 IST" name="browserOpen" finished-at="2025-10-18T21:28:23 IST" duration-ms="8466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method signature="verifyUserRegistration()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@7a8c8dcf]" started-at="2025-10-17T12:38:32 IST" name="verifyUserRegistration" finished-at="2025-10-17T12:38:52 IST" duration-ms="19937" status="PASS">
+        <test-method signature="verifyUserRegistration()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@7a8c8dcf]" started-at="2025-10-18T21:28:23 IST" name="verifyUserRegistration" finished-at="2025-10-18T21:28:41 IST" duration-ms="18145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserRegistration -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@7a8c8dcf]" started-at="2025-10-17T12:38:52 IST" name="browserClose" finished-at="2025-10-17T12:38:53 IST" duration-ms="667" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@7a8c8dcf]" started-at="2025-10-18T21:28:41 IST" name="browserClose" finished-at="2025-10-18T21:28:42 IST" duration-ms="822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- uttoronTestClasses.UttoronRegisterPageTest -->
       <class name="uttoronTestClasses.UttoronLoginPageTest">
-        <test-method is-config="true" signature="browserOpen()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6a78afa0]" started-at="2025-10-17T12:38:04 IST" name="browserOpen" finished-at="2025-10-17T12:38:14 IST" duration-ms="9486" status="PASS">
+        <test-method is-config="true" signature="browserOpen()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6a78afa0]" started-at="2025-10-18T21:27:47 IST" name="browserOpen" finished-at="2025-10-18T21:28:06 IST" duration-ms="18384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method signature="UserLogin()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6a78afa0]" started-at="2025-10-17T12:38:14 IST" name="UserLogin" finished-at="2025-10-17T12:38:22 IST" duration-ms="7824" status="PASS">
+        <test-method signature="UserLogin()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6a78afa0]" started-at="2025-10-18T21:28:06 IST" name="UserLogin" finished-at="2025-10-18T21:28:14 IST" duration-ms="8036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserLogin -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6a78afa0]" started-at="2025-10-17T12:38:22 IST" name="browserClose" finished-at="2025-10-17T12:38:23 IST" duration-ms="1289" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6a78afa0]" started-at="2025-10-18T21:28:14 IST" name="browserClose" finished-at="2025-10-18T21:28:14 IST" duration-ms="666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
