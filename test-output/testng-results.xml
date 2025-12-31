@@ -1,39 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Browser launched successfully: Uttoron | Uttoron Bengali Community of Greater Seattle]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Login page!]]>
+    </line>
+    <line>
+      <![CDATA[Login Sucessfull!]]>
+    </line>
+    <line>
+      <![CDATA[
+ Clicking on 'Sponsor' under 'Fund Raising'...]]>
+    </line>
+    <line>
+      <![CDATA[The tittle of the page is: Uttoron | Sponsorship 2025]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Cart link!]]>
+    </line>
+    <line>
+      <![CDATA[You can buy up to 6 number of item(s).
+After clicking on the Cart link, 'Your cart is empty' is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully!]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-10-18T21:27:47 IST" name="Uttoron Suite" finished-at="2025-10-18T21:28:42 IST" duration-ms="54572">
+  <suite started-at="2025-12-31T16:48:51 IST" name="Default suite" finished-at="2025-12-31T16:50:31 IST" duration-ms="99486">
     <groups>
     </groups>
-    <test started-at="2025-10-18T21:27:47 IST" name="Uttoron Test Classes" finished-at="2025-10-18T21:28:42 IST" duration-ms="54572">
-      <class name="uttoronTestClasses.UttoronRegisterPageTest">
-        <test-method is-config="true" signature="browserOpen()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@7a8c8dcf]" started-at="2025-10-18T21:28:14 IST" name="browserOpen" finished-at="2025-10-18T21:28:23 IST" duration-ms="8466" status="PASS">
+    <test started-at="2025-12-31T16:48:51 IST" name="Default test" finished-at="2025-12-31T16:50:31 IST" duration-ms="99486">
+      <class name="uttoronTestClasses.UttoronSponsorship_Permissible_Quantity">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronSponsorship_Permissible_Quantity@7a8c8dcf]" started-at="2025-12-31T16:48:51 IST" name="browserOpen" finished-at="2025-12-31T16:49:51 IST" duration-ms="60266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[Browser launched successfully: Uttoron | Uttoron Bengali Community of Greater Seattle]]>
+            </line>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method signature="verifyUserRegistration()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@7a8c8dcf]" started-at="2025-10-18T21:28:23 IST" name="verifyUserRegistration" finished-at="2025-10-18T21:28:41 IST" duration-ms="18145" status="PASS">
+        <test-method signature="Verify_PermissibleLimit()[pri:0, instance:uttoronTestClasses.UttoronSponsorship_Permissible_Quantity@7a8c8dcf]" started-at="2025-12-31T16:49:51 IST" name="Verify_PermissibleLimit" finished-at="2025-12-31T16:50:30 IST" duration-ms="38420" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Navigated to Login page!]]>
+            </line>
+            <line>
+              <![CDATA[Login Sucessfull!]]>
+            </line>
+            <line>
+              <![CDATA[
+ Clicking on 'Sponsor' under 'Fund Raising'...]]>
+            </line>
+            <line>
+              <![CDATA[The tittle of the page is: Uttoron | Sponsorship 2025]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Cart link!]]>
+            </line>
+            <line>
+              <![CDATA[You can buy up to 6 number of item(s).
+After clicking on the Cart link, 'Your cart is empty' is displayed.]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifyUserRegistration -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@7a8c8dcf]" started-at="2025-10-18T21:28:41 IST" name="browserClose" finished-at="2025-10-18T21:28:42 IST" duration-ms="822" status="PASS">
+        </test-method> <!-- Verify_PermissibleLimit -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronSponsorship_Permissible_Quantity@7a8c8dcf]" started-at="2025-12-31T16:50:30 IST" name="browserClose" finished-at="2025-12-31T16:50:31 IST" duration-ms="741" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Browser closed successfully!]]>
+            </line>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- uttoronTestClasses.UttoronRegisterPageTest -->
-      <class name="uttoronTestClasses.UttoronLoginPageTest">
-        <test-method is-config="true" signature="browserOpen()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6a78afa0]" started-at="2025-10-18T21:27:47 IST" name="browserOpen" finished-at="2025-10-18T21:28:06 IST" duration-ms="18384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserOpen -->
-        <test-method signature="UserLogin()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6a78afa0]" started-at="2025-10-18T21:28:06 IST" name="UserLogin" finished-at="2025-10-18T21:28:14 IST" duration-ms="8036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserLogin -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6a78afa0]" started-at="2025-10-18T21:28:14 IST" name="browserClose" finished-at="2025-10-18T21:28:14 IST" duration-ms="666" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- uttoronTestClasses.UttoronLoginPageTest -->
-    </test> <!-- Uttoron Test Classes -->
-  </suite> <!-- Uttoron Suite -->
+      </class> <!-- uttoronTestClasses.UttoronSponsorship_Permissible_Quantity -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

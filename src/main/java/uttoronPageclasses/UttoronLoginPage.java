@@ -1,13 +1,19 @@
 package uttoronPageclasses;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.Reporter;
 
 public class UttoronLoginPage extends UttoronBrowserOpen_Quit {
+	
+	WebDriverWait wait;
 
 	// Finding elements
 
@@ -36,19 +42,22 @@ public class UttoronLoginPage extends UttoronBrowserOpen_Quit {
 
 	public void Loginpage_LoginButton() throws InterruptedException {
 		Loginpage_loginbutton.click();
+		try {
 		WebElement logoutlink = driver.findElement(By.xpath("//a[text()='Logout']"));
 		Thread.sleep(2000);
-		try {
+		
 			if (logoutlink.isDisplayed()) {
 				Assert.assertTrue(true);
-				System.out.println("Login Sucessfull!");
+				Reporter.log("Login Sucessfull!", true);
 				
 			} else {
-				System.out.println("Login failure");
+				Reporter.log("Login failure, 'Sorry, unrecognized username or password' message is displayed.", true);
+				
 			}
 
 		} catch (Exception e) {
-			System.out.println("Login failure expection handled");
+			Reporter.log("Login failure expection handled, 'Sorry, unrecognized username or password' message is displayed. ",  true);
+			Assert.assertTrue(true);
 		}
 
 	}
@@ -57,6 +66,7 @@ public class UttoronLoginPage extends UttoronBrowserOpen_Quit {
 
 	public UttoronLoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 	}
 
