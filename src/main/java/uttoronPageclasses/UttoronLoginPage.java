@@ -50,14 +50,15 @@ public class UttoronLoginPage extends UttoronBrowserOpen_Quit {
 				Assert.assertTrue(true);
 				Reporter.log("Login Sucessfull!", true);
 				
-			} else {
-				Reporter.log("Login failure, 'Sorry, unrecognized username or password' message is displayed.", true);
-				
-			}
+			} 
+//			else {
+//				Reporter.log("Login failure, 'Sorry, unrecognized username or password' message is displayed.", true);
+//				
+//			}
 
 		} catch (Exception e) {
-			Reporter.log("Login failure expection handled, 'Sorry, unrecognized username or password' message is displayed. ",  true);
-			Assert.assertTrue(true);
+			Reporter.log("Logout link not displayed !! Login failure expection handled / 'Sorry, unrecognized username or password' message is displayed. ",  true);
+			Assert.assertTrue(false);
 		}
 
 	}

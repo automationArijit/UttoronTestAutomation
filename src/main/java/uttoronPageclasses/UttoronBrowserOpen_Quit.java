@@ -2,7 +2,7 @@ package uttoronPageclasses;
 
 import java.time.Duration;
 
-import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,10 +13,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-public class UttoronBrowserOpen_Quit {
+public class UttoronBrowserOpen_Quit extends UttoronTestListener {
 
-	public static WebDriver driver;
+	//public static WebDriver driver;
 	public static String parentWindow;
+	
 
 	@BeforeMethod
 	@Parameters("browser")

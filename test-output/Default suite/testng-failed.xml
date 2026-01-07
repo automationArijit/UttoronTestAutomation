@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="uttoronTestClasses.UttoronMembershipTest">
+      <class name="uttoronTestClasses.UttoronRegisterPageTest">
         <methods>
+          <include name="verifyUserRegistration"/>
           <include name="browserOpen"/>
           <include name="browserClose"/>
-          <include name="BecomeMember"/>
         </methods>
-      </class> <!-- uttoronTestClasses.UttoronMembershipTest -->
+      </class> <!-- uttoronTestClasses.UttoronRegisterPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

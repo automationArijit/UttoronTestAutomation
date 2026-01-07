@@ -5,35 +5,36 @@
       <![CDATA[Browser launched successfully: Uttoron | Uttoron Bengali Community of Greater Seattle]]>
     </line>
     <line>
-      <![CDATA[Navigated to Login page!]]>
+      <![CDATA[Navigated to Registration page!]]>
     </line>
     <line>
-      <![CDATA[Login Sucessfull!]]>
+      <![CDATA[firstname textfield displayed! : Test]]>
     </line>
     <line>
-      <![CDATA[
- Clicking on 'Sponsor' under 'Fund Raising'...]]>
+      <![CDATA[lastname textfield displayed! : Automation]]>
     </line>
     <line>
-      <![CDATA[The tittle of the page is: Uttoron | Sponsorship 2025]]>
+      <![CDATA[email textfield displayed! : watercolour.arijit@gmail.com]]>
     </line>
     <line>
-      <![CDATA[Clicking on Cart link!]]>
+      <![CDATA[Clicked on Register button!]]>
     </line>
     <line>
-      <![CDATA[You can buy up to 6 number of item(s).
-After clicking on the Cart link, 'Your cart is empty' is displayed.]]>
+      <![CDATA[You are already registered message is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Register button!]]>
     </line>
     <line>
       <![CDATA[Browser closed successfully!]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-12-31T16:48:51 IST" name="Default suite" finished-at="2025-12-31T16:50:31 IST" duration-ms="99486">
+  <suite started-at="2026-01-06T19:16:16 IST" name="Default suite" finished-at="2026-01-06T19:16:45 IST" duration-ms="28708">
     <groups>
     </groups>
-    <test started-at="2025-12-31T16:48:51 IST" name="Default test" finished-at="2025-12-31T16:50:31 IST" duration-ms="99486">
-      <class name="uttoronTestClasses.UttoronSponsorship_Permissible_Quantity">
-        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronSponsorship_Permissible_Quantity@7a8c8dcf]" started-at="2025-12-31T16:48:51 IST" name="browserOpen" finished-at="2025-12-31T16:49:51 IST" duration-ms="60266" status="PASS">
+    <test started-at="2026-01-06T19:16:16 IST" name="Default test" finished-at="2026-01-06T19:16:45 IST" duration-ms="28708">
+      <class name="uttoronTestClasses.UttoronRegisterPageTest">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@4c178a76]" started-at="2026-01-06T19:16:16 IST" name="browserOpen" finished-at="2026-01-06T19:16:23 IST" duration-ms="6740" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,38 +48,39 @@ After clicking on the Cart link, 'Your cart is empty' is displayed.]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method signature="Verify_PermissibleLimit()[pri:0, instance:uttoronTestClasses.UttoronSponsorship_Permissible_Quantity@7a8c8dcf]" started-at="2025-12-31T16:49:51 IST" name="Verify_PermissibleLimit" finished-at="2025-12-31T16:50:30 IST" duration-ms="38420" status="PASS">
+        <test-method signature="verifyUserRegistration()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@4c178a76]" started-at="2026-01-06T19:16:23 IST" name="verifyUserRegistration" finished-at="2026-01-06T19:16:43 IST" duration-ms="20656" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Navigated to Login page!]]>
+              <![CDATA[Navigated to Registration page!]]>
             </line>
             <line>
-              <![CDATA[Login Sucessfull!]]>
+              <![CDATA[firstname textfield displayed! : Test]]>
             </line>
             <line>
-              <![CDATA[
- Clicking on 'Sponsor' under 'Fund Raising'...]]>
+              <![CDATA[lastname textfield displayed! : Automation]]>
             </line>
             <line>
-              <![CDATA[The tittle of the page is: Uttoron | Sponsorship 2025]]>
+              <![CDATA[email textfield displayed! : watercolour.arijit@gmail.com]]>
             </line>
             <line>
-              <![CDATA[Clicking on Cart link!]]>
+              <![CDATA[Clicked on Register button!]]>
             </line>
             <line>
-              <![CDATA[You can buy up to 6 number of item(s).
-After clicking on the Cart link, 'Your cart is empty' is displayed.]]>
+              <![CDATA[You are already registered message is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Register button!]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_PermissibleLimit -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronSponsorship_Permissible_Quantity@7a8c8dcf]" started-at="2025-12-31T16:50:30 IST" name="browserClose" finished-at="2025-12-31T16:50:31 IST" duration-ms="741" status="PASS">
+        </test-method> <!-- verifyUserRegistration -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@4c178a76]" started-at="2026-01-06T19:16:44 IST" name="browserClose" finished-at="2026-01-06T19:16:45 IST" duration-ms="1049" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser closed successfully!]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- uttoronTestClasses.UttoronSponsorship_Permissible_Quantity -->
+      </class> <!-- uttoronTestClasses.UttoronRegisterPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

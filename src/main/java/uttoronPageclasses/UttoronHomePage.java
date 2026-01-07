@@ -125,11 +125,11 @@ public class UttoronHomePage extends UttoronBrowserOpen_Quit {
 
 		try {
 			if (checkoutButton.isDisplayed()) {
-				Reporter.log("Landing on Shopping Cart page.");
+				Reporter.log("Landing on Shopping Cart page.",true);
 			}
 		} catch (Exception e) {
 			Reporter.log("You can buy up to 6 number of item(s).\n"
-					+ "After clicking on the Cart link, 'Your cart is empty' is displayed.");
+					+ "After clicking on the Cart link, 'Your cart is empty' is displayed.", true);
 		}
 
 	}

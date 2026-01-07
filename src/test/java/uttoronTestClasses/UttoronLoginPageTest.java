@@ -3,6 +3,7 @@ package uttoronTestClasses;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import uttoronPageclasses.UttoronBrowserOpen_Quit;
@@ -10,6 +11,7 @@ import uttoronPageclasses.UttoronHomePage;
 import uttoronPageclasses.UttoronLoginData;
 import uttoronPageclasses.UttoronLoginPage;
 
+@Listeners(uttoronPageclasses.UttoronTestListener.class)
 public class UttoronLoginPageTest extends UttoronBrowserOpen_Quit {
 
 	UttoronHomePage uh;

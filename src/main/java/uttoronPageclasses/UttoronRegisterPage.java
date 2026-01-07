@@ -37,47 +37,64 @@ public class UttoronRegisterPage extends UttoronBrowserOpen_Quit {
 	WebElement RegisterPage_registerbutton;
 	@FindBy(xpath = "//input[@type='text' and contains(@id, 'captcha')]")
 	WebElement captchaField;
+	@FindBy(xpath = "//div[contains(@class,'messages') and contains(@class,'warning')]//h2")
+	WebElement alreadyregistermsg;
+
+	// div[contains(@class,'messages') and contains(@class,'warning')]//h2
 
 	// Methods of elements
 	public void registerUser(String fName, String lName, String emailId, String pass) {
-		RegisterPage_firstname.sendKeys(fName);
-		RegisterPage_lastname.sendKeys(lName);
-		RegisterPage_email.sendKeys(emailId);
-		RegisterPage_password.sendKeys(pass);
-
-		System.out.println("Enter CAPTCHA manually within 15 seconds...");
 		try {
+			RegisterPage_Firstname(fName);
+			RegisterPage_Lastname(lName);
+			RegisterPage_Email(emailId);
+			RegisterPage_Password(pass);
+
+			System.out.println("Enter CAPTCHA manually within 15 seconds...");
+
 			Thread.sleep(15000);
+			RegisterPage_RegisterButton();
+
+			wait.until(ExpectedConditions.visibilityOf(alreadyregistermsg));
+
+			if (alreadyregistermsg.isDisplayed()) {
+				Reporter.log("You are already registered message is displayed.", true);
+			}
+			Reporter.log("Clicked on Register button!", true);
+
 		} catch (InterruptedException e) {
-			e.printStackTrace();
+
+			Reporter.log("The answer you entered for the CAPTCHA was not correct./ unable to click on register button.",
+					true);
 		}
-		RegisterPage_registerbutton.click();
+
 	}
-	
-	public void RegisterPage_RegisterButton()
-	{
-		Assert.assertTrue(RegisterPage_registerbutton.isDisplayed());
+
+	public void RegisterPage_RegisterButton() {
+		Assert.assertTrue(RegisterPage_registerbutton.isDisplayed(), "Register button is not displayed");
 		System.out.println("Register button is displayed!");
 		RegisterPage_registerbutton.click();
+		Reporter.log("Clicked on Register button!", true);
 	}
 
 	// excel data fetch for registration.
 
 	public void RegisterPage_Firstname(String firstname) {
 		Assert.assertTrue(RegisterPage_firstname.isDisplayed());
-		Reporter.log("firstname textfield displayed! :"+firstname,true);
+		Reporter.log("firstname textfield displayed! : " + firstname, true);
 		RegisterPage_firstname.sendKeys(firstname);
+
 	}
 
 	public void RegisterPage_Lastname(String lastname) {
 		Assert.assertTrue(RegisterPage_lastname.isDisplayed());
-		Reporter.log("lastname textfield displayed! :"+lastname,true);
+		Reporter.log("lastname textfield displayed! : " + lastname, true);
 		RegisterPage_lastname.sendKeys(lastname);
 	}
 
 	public void RegisterPage_Email(String email) {
 		Assert.assertTrue(RegisterPage_email.isDisplayed());
-		Reporter.log("email textfield displayed! :"+email , true);
+		Reporter.log("email textfield displayed! : " + email, true);
 		RegisterPage_email.sendKeys(email);
 	}
 
@@ -88,22 +105,22 @@ public class UttoronRegisterPage extends UttoronBrowserOpen_Quit {
 	}
 
 	public void capchaHandle() throws IOException, TesseractException, InterruptedException {
-		
+
 		WebElement capchaImg = driver.findElement(By.xpath("//img[contains(@src,'image_captcha')]"));
 		wait.until(ExpectedConditions.visibilityOf(capchaImg));
 
-		File src=capchaImg.getScreenshotAs(OutputType.FILE);
-		String path=System.getProperty("user.dir")+"/Screenshot/capchaImage.png";
+		File src = capchaImg.getScreenshotAs(OutputType.FILE);
+		String path = System.getProperty("user.dir") + "/Screenshot/capchaImage.png";
 
 		FileHandler.copy(src, new File(path));
 
-		ITesseract image=new Tesseract();
+		ITesseract image = new Tesseract();
 
-		String imageText=image.doOCR(new File(path));
+		String imageText = image.doOCR(new File(path));
 
-		String finalText=imageText.split("below")[1].replaceAll("[^a-zA-Z0-9]", "");
+		String finalText = imageText.split("below")[1].replaceAll("[^a-zA-Z0-9]", "");
 
-		System.out.println("Final Captcha is "+finalText);
+		System.out.println("Final Captcha is " + finalText);
 		wait.until(ExpectedConditions.visibilityOf(captchaField));
 		captchaField.sendKeys(finalText);
 

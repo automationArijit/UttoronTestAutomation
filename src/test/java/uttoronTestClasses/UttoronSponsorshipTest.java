@@ -72,7 +72,7 @@ public class UttoronSponsorshipTest extends UttoronBrowserOpen_Quit {
 		upd.UttoronPayPalCredential();
 		
 		
-		spp.Email("watercolour.arijit@gmail.com");
+		spp.Email(UttoronPaypalData.passemail);
 		spp.ContinueToPayment();
 		
 		spp.CountryDropdown(UttoronPaypalData.continueDropdown);

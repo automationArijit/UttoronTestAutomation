@@ -24,6 +24,7 @@ public class UttoronPaypalData {
 	public static String cityname;
 	public static String statetname;
 	public static String zipcode;
+	public static String passemail;
 
 	public void UttoronPayPalCredential() throws EncryptedDocumentException, IOException {
 		FileInputStream f = new FileInputStream(
@@ -32,6 +33,8 @@ public class UttoronPaypalData {
 		email = w.getSheet("sandboxdata").getRow(1).getCell(0).getStringCellValue();
 		continueDropdown = w.getSheet("sandboxdata").getRow(1).getCell(1).getStringCellValue();
 		billingemail = w.getSheet("sandboxdata").getRow(1).getCell(2).getStringCellValue();
+	passemail = w.getSheet("sandboxdata").getRow(1).getCell(2).getStringCellValue();
+		
 		phonetype = w.getSheet("sandboxdata").getRow(1).getCell(3).getStringCellValue();
 		phonenumber = w.getSheet("sandboxdata").getRow(1).getCell(4).getStringCellValue();
 		cardnumber = w.getSheet("sandboxdata").getRow(1).getCell(5).getStringCellValue();
