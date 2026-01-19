@@ -33,7 +33,7 @@ public class UttoronRegisterPageTest extends UttoronBrowserOpen_Quit {
 	
 //  For New user: 
 		
-	//reg.registerUser(UttoronRegisterData.firstName, UttoronRegisterData.lastName, UttoronRegisterData.email, UttoronRegisterData.password);
+	 // reg.registerUser(UttoronRegisterData.firstName, UttoronRegisterData.lastName, UttoronRegisterData.email, UttoronRegisterData.password);
 
 //  For already registered user: Test Automation, email: watercolour.arijit@gmail.com , psw: uttoron2025Demo!
 	

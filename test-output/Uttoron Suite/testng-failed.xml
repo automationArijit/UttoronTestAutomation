@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Uttoron Suite]">
+  <test thread-count="5" name="Uttoron Test - Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="uttoronTestClasses.UttoronSponsorship_Permissible_Quantity">
+        <methods>
+          <include name="Verify_PermissibleLimit"/>
+          <include name="browserClose"/>
+          <include name="browserOpen"/>
+        </methods>
+      </class> <!-- uttoronTestClasses.UttoronSponsorship_Permissible_Quantity -->
+    </classes>
+  </test> <!-- Uttoron Test - Firefox(failed) -->
+</suite> <!-- Failed suite [Uttoron Suite] -->

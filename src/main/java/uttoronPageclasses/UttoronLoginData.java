@@ -13,6 +13,9 @@ public class UttoronLoginData {
 	public static String psw1;
 	public static String un2;
 	public static String psw2;
+	public static String newuserUN;
+	public static String newuserPSW;
+	
 
 	public void UttoronLoginCredential() throws EncryptedDocumentException, IOException {
 		FileInputStream f = new FileInputStream(
@@ -22,6 +25,8 @@ public class UttoronLoginData {
 		psw1 = w.getSheet("login").getRow(1).getCell(1).getStringCellValue();
 		un2 = w.getSheet("login").getRow(2).getCell(0).getStringCellValue();
 		psw2 = w.getSheet("login").getRow(2).getCell(1).getStringCellValue();
+		newuserUN = w.getSheet("login").getRow(3).getCell(0).getStringCellValue();
+		newuserPSW = w.getSheet("login").getRow(3).getCell(1).getStringCellValue();
 
 	}
 	

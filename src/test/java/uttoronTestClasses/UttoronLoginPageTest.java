@@ -40,8 +40,14 @@ public class UttoronLoginPageTest extends UttoronBrowserOpen_Quit {
 		// un1,psw1 ==>> valid credential.
 		// un2,psw2 ==>> in-valid credential.
 		
-		ul.Loginpage_Username(UttoronLoginData.un1);
-		ul.Loginpage_Password(UttoronLoginData.psw1);
+		
+		//  To verify new registered user:
+		  ul.Loginpage_Username(UttoronLoginData.newuserUN);
+		  ul.Loginpage_Password(UttoronLoginData.newuserPSW);
+		
+		
+//		ul.Loginpage_Username(UttoronLoginData.un1);
+//		ul.Loginpage_Password(UttoronLoginData.psw1);
 		ul.Loginpage_LoginButton();
 
 	}

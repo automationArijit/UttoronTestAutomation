@@ -5,36 +5,21 @@
       <![CDATA[Browser launched successfully: Uttoron | Uttoron Bengali Community of Greater Seattle]]>
     </line>
     <line>
-      <![CDATA[Navigated to Registration page!]]>
+      <![CDATA[Navigated to Login page!]]>
     </line>
     <line>
-      <![CDATA[firstname textfield displayed! : Test]]>
-    </line>
-    <line>
-      <![CDATA[lastname textfield displayed! : Automation]]>
-    </line>
-    <line>
-      <![CDATA[email textfield displayed! : watercolour.arijit@gmail.com]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Register button!]]>
-    </line>
-    <line>
-      <![CDATA[You are already registered message is displayed.]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Register button!]]>
+      <![CDATA[Login Sucessfull!]]>
     </line>
     <line>
       <![CDATA[Browser closed successfully!]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-01-06T19:16:16 IST" name="Default suite" finished-at="2026-01-06T19:16:45 IST" duration-ms="28708">
+  <suite started-at="2026-01-19T18:19:19 IST" name="Default suite" finished-at="2026-01-19T18:19:36 IST" duration-ms="17007">
     <groups>
     </groups>
-    <test started-at="2026-01-06T19:16:16 IST" name="Default test" finished-at="2026-01-06T19:16:45 IST" duration-ms="28708">
-      <class name="uttoronTestClasses.UttoronRegisterPageTest">
-        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@4c178a76]" started-at="2026-01-06T19:16:16 IST" name="browserOpen" finished-at="2026-01-06T19:16:23 IST" duration-ms="6740" status="PASS">
+    <test started-at="2026-01-19T18:19:19 IST" name="Default test" finished-at="2026-01-19T18:19:36 IST" duration-ms="17007">
+      <class name="uttoronTestClasses.UttoronLoginPageTest">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@510f3d34]" started-at="2026-01-19T18:19:19 IST" name="browserOpen" finished-at="2026-01-19T18:19:28 IST" duration-ms="8762" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,39 +33,24 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method signature="verifyUserRegistration()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@4c178a76]" started-at="2026-01-06T19:16:23 IST" name="verifyUserRegistration" finished-at="2026-01-06T19:16:43 IST" duration-ms="20656" status="PASS">
+        <test-method signature="UserLogin()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@510f3d34]" started-at="2026-01-19T18:19:28 IST" name="UserLogin" finished-at="2026-01-19T18:19:36 IST" duration-ms="7491" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Navigated to Registration page!]]>
+              <![CDATA[Navigated to Login page!]]>
             </line>
             <line>
-              <![CDATA[firstname textfield displayed! : Test]]>
-            </line>
-            <line>
-              <![CDATA[lastname textfield displayed! : Automation]]>
-            </line>
-            <line>
-              <![CDATA[email textfield displayed! : watercolour.arijit@gmail.com]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Register button!]]>
-            </line>
-            <line>
-              <![CDATA[You are already registered message is displayed.]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Register button!]]>
+              <![CDATA[Login Sucessfull!]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyUserRegistration -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronRegisterPageTest@4c178a76]" started-at="2026-01-06T19:16:44 IST" name="browserClose" finished-at="2026-01-06T19:16:45 IST" duration-ms="1049" status="PASS">
+        </test-method> <!-- UserLogin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@510f3d34]" started-at="2026-01-19T18:19:36 IST" name="browserClose" finished-at="2026-01-19T18:19:36 IST" duration-ms="586" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser closed successfully!]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- uttoronTestClasses.UttoronRegisterPageTest -->
+      </class> <!-- uttoronTestClasses.UttoronLoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

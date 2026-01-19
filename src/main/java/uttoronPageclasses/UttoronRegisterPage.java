@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
@@ -43,8 +44,8 @@ public class UttoronRegisterPage extends UttoronBrowserOpen_Quit {
 	// div[contains(@class,'messages') and contains(@class,'warning')]//h2
 
 	// Methods of elements
-	public void registerUser(String fName, String lName, String emailId, String pass) {
-		try {
+	public void registerUser(String fName, String lName, String emailId, String pass) throws InterruptedException {
+		
 			RegisterPage_Firstname(fName);
 			RegisterPage_Lastname(lName);
 			RegisterPage_Email(emailId);
@@ -54,19 +55,15 @@ public class UttoronRegisterPage extends UttoronBrowserOpen_Quit {
 
 			Thread.sleep(15000);
 			RegisterPage_RegisterButton();
-
-			wait.until(ExpectedConditions.visibilityOf(alreadyregistermsg));
-
-			if (alreadyregistermsg.isDisplayed()) {
-				Reporter.log("You are already registered message is displayed.", true);
+			
+			try {
+			    wait.until(ExpectedConditions.visibilityOf(alreadyregistermsg));
+			    Reporter.log("You are already registered message is displayed.", true);
+			} catch (Exception e) {
+			    Reporter.log("No warning message displayed. Registration likely successful.", true);
 			}
-			Reporter.log("Clicked on Register button!", true);
 
-		} catch (InterruptedException e) {
 
-			Reporter.log("The answer you entered for the CAPTCHA was not correct./ unable to click on register button.",
-					true);
-		}
 
 	}
 

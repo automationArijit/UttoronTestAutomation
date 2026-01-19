@@ -18,7 +18,7 @@ public class UttoronMultiUserRegistration extends UttoronBrowserOpen_Quit {
             String firstName,
             String lastName,
             String email,
-            String password) {
+            String password) throws InterruptedException {
 
         uh = new UttoronHomePage(driver);
         uh.Homepage_RegisterLink();
