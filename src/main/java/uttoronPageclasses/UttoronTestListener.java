@@ -13,6 +13,7 @@ import org.testng.ITestResult;
 public class UttoronTestListener implements ITestListener {
 	
 	public static WebDriver driver;
+	
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
@@ -44,9 +45,5 @@ public class UttoronTestListener implements ITestListener {
 		}
 	}
 	
-	
-	
-	
-       
 
 }

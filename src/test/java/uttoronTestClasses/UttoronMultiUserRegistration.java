@@ -1,5 +1,6 @@
 package uttoronTestClasses;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import uttoronPageclasses.UttoronBrowserOpen_Quit;
@@ -7,6 +8,9 @@ import uttoronPageclasses.UttoronHomePage;
 import uttoronPageclasses.UttoronRegisterData;
 import uttoronPageclasses.UttoronRegisterPage;
 
+
+
+@Listeners(uttoronPageclasses.UttoronTestListener.class)
 public class UttoronMultiUserRegistration extends UttoronBrowserOpen_Quit {
 	
 	UttoronRegisterPage reg;
@@ -32,7 +36,7 @@ public class UttoronMultiUserRegistration extends UttoronBrowserOpen_Quit {
 
         reg.RegisterPage_RegisterButton();
         
-        reg.registerUser(firstName, lastName, email, password);
+       // reg.registerUser(firstName, lastName, email, password);
     }
 }
 

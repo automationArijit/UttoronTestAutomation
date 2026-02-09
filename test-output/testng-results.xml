@@ -11,15 +11,73 @@
       <![CDATA[Login Sucessfull!]]>
     </line>
     <line>
+      <![CDATA[
+ Clicking on 'Become a Member' under 'Membership'...]]>
+    </line>
+    <line>
+      <![CDATA[The title of the page is: Uttoron | Become a member]]>
+    </line>
+    <line>
+      <![CDATA[ Selected Membership Type: Adult]]>
+    </line>
+    <line>
+      <![CDATA[ Selected Age Group: 35-44]]>
+    </line>
+    <line>
+      <![CDATA[Entered First Name: Tarun]]>
+    </line>
+    <line>
+      <![CDATA[Entered Last Name: Ray]]>
+    </line>
+    <line>
+      <![CDATA[Entered Email: roy1235@yopmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Finish & Pay]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Proceed to Pay!]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for PayPal iframe...]]>
+    </line>
+    <line>
+      <![CDATA[Inside PayPal iframe. Looking for button...]]>
+    </line>
+    <line>
+      <![CDATA[PayPal button visible, clicking...]]>
+    </line>
+    <line>
+      <![CDATA[ PayPal button clicked successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Switched to PayPal Window PayPal]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the button : Pay with Debit or Credit Card!]]>
+    </line>
+    <line>
+      <![CDATA[Passing the email address: watercolour.arijit@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Continue to Payment button]]>
+    </line>
+    <line>
+      <![CDATA[Toggle initial state (isSelected): true]]>
+    </line>
+    <line>
+      <![CDATA[PayPal toggle successfully turned OFF]]>
+    </line>
+    <line>
       <![CDATA[Browser closed successfully!]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-01-19T18:19:19 IST" name="Default suite" finished-at="2026-01-19T18:19:36 IST" duration-ms="17007">
+  <suite started-at="2026-02-09T18:40:51 IST" name="Default suite" finished-at="2026-02-09T18:41:56 IST" duration-ms="64956">
     <groups>
     </groups>
-    <test started-at="2026-01-19T18:19:19 IST" name="Default test" finished-at="2026-01-19T18:19:36 IST" duration-ms="17007">
-      <class name="uttoronTestClasses.UttoronLoginPageTest">
-        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@510f3d34]" started-at="2026-01-19T18:19:19 IST" name="browserOpen" finished-at="2026-01-19T18:19:28 IST" duration-ms="8762" status="PASS">
+    <test started-at="2026-02-09T18:40:51 IST" name="Default test" finished-at="2026-02-09T18:41:56 IST" duration-ms="64956">
+      <class name="uttoronTestClasses.UttoronMembershipTest">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronMembershipTest@510f3d34]" started-at="2026-02-09T18:40:51 IST" name="browserOpen" finished-at="2026-02-09T18:41:05 IST" duration-ms="13203" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +91,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method signature="UserLogin()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@510f3d34]" started-at="2026-01-19T18:19:28 IST" name="UserLogin" finished-at="2026-01-19T18:19:36 IST" duration-ms="7491" status="PASS">
+        <test-method signature="BecomeMember()[pri:0, instance:uttoronTestClasses.UttoronMembershipTest@510f3d34]" started-at="2026-02-09T18:41:05 IST" name="BecomeMember" finished-at="2026-02-09T18:41:54 IST" duration-ms="49807" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to Login page!]]>
@@ -41,16 +99,74 @@
             <line>
               <![CDATA[Login Sucessfull!]]>
             </line>
+            <line>
+              <![CDATA[
+ Clicking on 'Become a Member' under 'Membership'...]]>
+            </line>
+            <line>
+              <![CDATA[The title of the page is: Uttoron | Become a member]]>
+            </line>
+            <line>
+              <![CDATA[ Selected Membership Type: Adult]]>
+            </line>
+            <line>
+              <![CDATA[ Selected Age Group: 35-44]]>
+            </line>
+            <line>
+              <![CDATA[Entered First Name: Tarun]]>
+            </line>
+            <line>
+              <![CDATA[Entered Last Name: Ray]]>
+            </line>
+            <line>
+              <![CDATA[Entered Email: roy1235@yopmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Finish & Pay]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Proceed to Pay!]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for PayPal iframe...]]>
+            </line>
+            <line>
+              <![CDATA[Inside PayPal iframe. Looking for button...]]>
+            </line>
+            <line>
+              <![CDATA[PayPal button visible, clicking...]]>
+            </line>
+            <line>
+              <![CDATA[ PayPal button clicked successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Switched to PayPal Window PayPal]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the button : Pay with Debit or Credit Card!]]>
+            </line>
+            <line>
+              <![CDATA[Passing the email address: watercolour.arijit@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Continue to Payment button]]>
+            </line>
+            <line>
+              <![CDATA[Toggle initial state (isSelected): true]]>
+            </line>
+            <line>
+              <![CDATA[PayPal toggle successfully turned OFF]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- UserLogin -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@510f3d34]" started-at="2026-01-19T18:19:36 IST" name="browserClose" finished-at="2026-01-19T18:19:36 IST" duration-ms="586" status="PASS">
+        </test-method> <!-- BecomeMember -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronMembershipTest@510f3d34]" started-at="2026-02-09T18:41:55 IST" name="browserClose" finished-at="2026-02-09T18:41:56 IST" duration-ms="1718" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser closed successfully!]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- uttoronTestClasses.UttoronLoginPageTest -->
+      </class> <!-- uttoronTestClasses.UttoronMembershipTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

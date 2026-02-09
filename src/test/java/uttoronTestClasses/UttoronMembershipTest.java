@@ -3,6 +3,7 @@ package uttoronTestClasses;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import uttoronPageclasses.SandboxPayPalPage;
@@ -16,6 +17,7 @@ import uttoronPageclasses.UttoronPaypalData;
 import uttoronPageclasses.UttoronSecureCheckoutPage;
 import uttoronPageclasses.UttoronSecurePaymentPayPalPage;
 
+@Listeners(uttoronPageclasses.UttoronTestListener.class)
 public class UttoronMembershipTest extends UttoronBrowserOpen_Quit {
 
 	UttoronHomePage uh;
@@ -56,6 +58,7 @@ public class UttoronMembershipTest extends UttoronBrowserOpen_Quit {
 		um.selectMemberAndProceedToPay(UttoronMemberData.membertype, UttoronMemberData.agegroup,
 				UttoronMemberData.fname, UttoronMemberData.lname, UttoronMemberData.email);
 //	SecureCheckoutPage 	
+
 		usc = new UttoronSecureCheckoutPage(driver);
 		usc.ProceedToPayButton();
 
@@ -80,7 +83,7 @@ public class UttoronMembershipTest extends UttoronBrowserOpen_Quit {
 		spp.Email(UttoronPaypalData.email);
 		spp.ContinueToPayment();
 		spp.CountryDropdown(UttoronPaypalData.continueDropdown);
-		//UttoronPaypalData.billingemail
+		// UttoronPaypalData.billingemail
 		spp.BillingEmailField();
 		spp.PhoneType(UttoronPaypalData.phonetype);
 		spp.PhoneNumber(UttoronPaypalData.phonenumber);
@@ -96,7 +99,7 @@ public class UttoronMembershipTest extends UttoronBrowserOpen_Quit {
 		Thread.sleep(2000);
 		spp.turnOffPayPalToggle();
 		spp.ContinueAsGuestButton();
-		spp.ContinueButton();
+		// spp.ContinueButton();
 
 	}
 

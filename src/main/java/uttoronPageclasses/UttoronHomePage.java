@@ -60,7 +60,7 @@ public class UttoronHomePage extends UttoronBrowserOpen_Quit {
 	@FindBy(xpath = "(//a[contains(text(),'Membership')])[1]")
 	WebElement headerMembership;
 
-	@FindBy(xpath = "(//a[contains(text(),'Membership')]/../ul/li)[2]/a")
+	@FindBy(xpath = "//a[normalize-space()='Become a Member']")
 	WebElement becomeMemberLink;
 	//
 	@FindBy(xpath = "//button[contains(text(),'Checkout')]")

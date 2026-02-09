@@ -33,19 +33,18 @@
       <![CDATA[Clicking on Cart link!]]>
     </line>
     <line>
-      <![CDATA[You can buy up to 6 number of item(s).
-After clicking on the Cart link, 'Your cart is empty' is displayed.]]>
+      <![CDATA[Landing on Shopping Cart page.]]>
     </line>
     <line>
       <![CDATA[Browser closed successfully!]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-01-07T12:34:44 IST" name="Uttoron Suite" finished-at="2026-01-07T12:35:48 IST" duration-ms="64176">
+  <suite started-at="2026-01-20T11:08:07 IST" name="Uttoron Suite" finished-at="2026-01-20T11:09:10 IST" duration-ms="63029">
     <groups>
     </groups>
-    <test started-at="2026-01-07T12:34:44 IST" name="Uttoron Test Classes" finished-at="2026-01-07T12:35:48 IST" duration-ms="64176">
+    <test started-at="2026-01-20T11:08:07 IST" name="Uttoron Test Classes" finished-at="2026-01-20T11:09:10 IST" duration-ms="63029">
       <class name="uttoronTestClasses.UttoronLoginPageTest">
-        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6eda5c9]" started-at="2026-01-07T12:34:44 IST" name="browserOpen" finished-at="2026-01-07T12:34:58 IST" duration-ms="13634" status="PASS">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6eda5c9]" started-at="2026-01-20T11:08:07 IST" name="browserOpen" finished-at="2026-01-20T11:08:18 IST" duration-ms="11015" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +58,7 @@ After clicking on the Cart link, 'Your cart is empty' is displayed.]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method signature="UserLogin()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6eda5c9]" started-at="2026-01-07T12:34:58 IST" name="UserLogin" finished-at="2026-01-07T12:35:08 IST" duration-ms="10031" status="PASS">
+        <test-method signature="UserLogin()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6eda5c9]" started-at="2026-01-20T11:08:18 IST" name="UserLogin" finished-at="2026-01-20T11:08:25 IST" duration-ms="6635" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to Login page!]]>
@@ -69,7 +68,7 @@ After clicking on the Cart link, 'Your cart is empty' is displayed.]]>
             </line>
           </reporter-output>
         </test-method> <!-- UserLogin -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6eda5c9]" started-at="2026-01-07T12:35:08 IST" name="browserClose" finished-at="2026-01-07T12:35:09 IST" duration-ms="810" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronLoginPageTest@6eda5c9]" started-at="2026-01-20T11:08:25 IST" name="browserClose" finished-at="2026-01-20T11:08:25 IST" duration-ms="680" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser closed successfully!]]>
@@ -78,7 +77,7 @@ After clicking on the Cart link, 'Your cart is empty' is displayed.]]>
         </test-method> <!-- browserClose -->
       </class> <!-- uttoronTestClasses.UttoronLoginPageTest -->
       <class name="uttoronTestClasses.UttoronSponsorship_Permissible_Quantity">
-        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronSponsorship_Permissible_Quantity@4567f35d]" started-at="2026-01-07T12:35:09 IST" name="browserOpen" finished-at="2026-01-07T12:35:18 IST" duration-ms="8688" status="PASS">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronSponsorship_Permissible_Quantity@4567f35d]" started-at="2026-01-20T11:08:25 IST" name="browserOpen" finished-at="2026-01-20T11:08:43 IST" duration-ms="17741" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,7 +91,7 @@ After clicking on the Cart link, 'Your cart is empty' is displayed.]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method signature="Verify_PermissibleLimit()[pri:0, instance:uttoronTestClasses.UttoronSponsorship_Permissible_Quantity@4567f35d]" started-at="2026-01-07T12:35:18 IST" name="Verify_PermissibleLimit" finished-at="2026-01-07T12:35:47 IST" duration-ms="29883" status="PASS">
+        <test-method signature="Verify_PermissibleLimit()[pri:0, instance:uttoronTestClasses.UttoronSponsorship_Permissible_Quantity@4567f35d]" started-at="2026-01-20T11:08:43 IST" name="Verify_PermissibleLimit" finished-at="2026-01-20T11:09:09 IST" duration-ms="25800" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to Login page!]]>
@@ -111,12 +110,11 @@ After clicking on the Cart link, 'Your cart is empty' is displayed.]]>
               <![CDATA[Clicking on Cart link!]]>
             </line>
             <line>
-              <![CDATA[You can buy up to 6 number of item(s).
-After clicking on the Cart link, 'Your cart is empty' is displayed.]]>
+              <![CDATA[Landing on Shopping Cart page.]]>
             </line>
           </reporter-output>
         </test-method> <!-- Verify_PermissibleLimit -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronSponsorship_Permissible_Quantity@4567f35d]" started-at="2026-01-07T12:35:48 IST" name="browserClose" finished-at="2026-01-07T12:35:48 IST" duration-ms="778" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronSponsorship_Permissible_Quantity@4567f35d]" started-at="2026-01-20T11:09:09 IST" name="browserClose" finished-at="2026-01-20T11:09:10 IST" duration-ms="852" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser closed successfully!]]>

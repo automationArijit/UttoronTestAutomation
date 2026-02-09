@@ -3,6 +3,7 @@ package uttoronTestClasses;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import uttoronPageclasses.SandboxPayPalPage;
@@ -17,6 +18,7 @@ import uttoronPageclasses.UttoronSecurePaymentPayPalPage;
 import uttoronPageclasses.UttoronShoppingCartPage;
 import uttoronPageclasses.UttoronSponsorshipPage;
 
+@Listeners(uttoronPageclasses.UttoronTestListener.class)
 public class UttoronSponsorshipTest extends UttoronBrowserOpen_Quit {
 
 	UttoronHomePage uh;
