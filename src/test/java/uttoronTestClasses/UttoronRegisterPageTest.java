@@ -33,11 +33,11 @@ public class UttoronRegisterPageTest extends UttoronBrowserOpen_Quit {
 	
 //  For New user: 
 		
-	// reg.registerUser(UttoronRegisterData.firstName, UttoronRegisterData.lastName, UttoronRegisterData.email, UttoronRegisterData.password);
+	 reg.registerUser(UttoronRegisterData.firstName, UttoronRegisterData.lastName, UttoronRegisterData.email, UttoronRegisterData.password);
 
 //  For already registered user: Test Automation, email: watercolour.arijit@gmail.com , psw: uttoron2025Demo!
 	
-	reg.registerUser(UttoronRegisterData.registered_firstName, UttoronRegisterData.registered_lastName, UttoronRegisterData.registered_email, UttoronRegisterData.registered_password);
+	//reg.registerUser(UttoronRegisterData.registered_firstName, UttoronRegisterData.registered_lastName, UttoronRegisterData.registered_email, UttoronRegisterData.registered_password);
 	
 		
 	}

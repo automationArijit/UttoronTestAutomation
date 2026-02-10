@@ -94,7 +94,7 @@ public class UttoronSponsorshipTest extends UttoronBrowserOpen_Quit {
 		Thread.sleep(6000);
 		spp.turnOffPayPalToggle();
 		spp.ContinueAsGuestButton();
-		//spp.ContinueButton();
+		spp.ContinueButton();
 
 	}
 }

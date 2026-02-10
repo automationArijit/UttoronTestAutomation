@@ -99,7 +99,7 @@ public class UttoronMembershipTest extends UttoronBrowserOpen_Quit {
 		Thread.sleep(2000);
 		spp.turnOffPayPalToggle();
 		spp.ContinueAsGuestButton();
-		// spp.ContinueButton();
+		 spp.ContinueButton();
 
 	}
 

@@ -8,8 +8,7 @@
 			<class name="uttoronTestClasses.UttoronLoginPageTest" />
 			<class
 				name="uttoronTestClasses.UttoronSponsorship_Permissible_Quantity" />
-			<class name="uttoronTestClasses.UttoronMembershipTest" />
-			<class name="uttoronTestClasses.UttoronSponsorshipTest" />
+			
 
 
 		</classes>
@@ -21,8 +20,7 @@
 			<class name="uttoronTestClasses.UttoronLoginPageTest" />
 			<class
 				name="uttoronTestClasses.UttoronSponsorship_Permissible_Quantity" />
-			<class name="uttoronTestClasses.UttoronMembershipTest" />
-			<class name="uttoronTestClasses.UttoronSponsorshipTest" />
+			
 
 		</classes>
 	</test>
@@ -33,8 +31,7 @@
 			<class name="uttoronTestClasses.UttoronLoginPageTest" />
 			<class
 				name="uttoronTestClasses.UttoronSponsorship_Permissible_Quantity" />
-			<class name="uttoronTestClasses.UttoronMembershipTest" />
-			<class name="uttoronTestClasses.UttoronSponsorshipTest" />
+			
 
 		</classes>
 	</test>

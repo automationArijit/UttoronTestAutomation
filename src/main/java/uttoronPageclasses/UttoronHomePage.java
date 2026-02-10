@@ -47,7 +47,7 @@ public class UttoronHomePage extends UttoronBrowserOpen_Quit {
 	WebElement headerGallery;
 
 	// Sponsor link inside Fund Raising
-	@FindBy(xpath = "//ul/li/a[text()='Fund Raising']/../ul/li/a[text()='Sponsor']")
+	@FindBy(xpath = "//a[normalize-space()='Fund Raising']/following-sibling::ul//a[normalize-space()='Sponsor']")
 	WebElement sponsorLink;
 
 	// Sponsor link inside Fund Raising

@@ -25,8 +25,8 @@ public class UttoronLoginData {
 		psw1 = w.getSheet("login").getRow(1).getCell(1).getStringCellValue();
 		un2 = w.getSheet("login").getRow(2).getCell(0).getStringCellValue();
 		psw2 = w.getSheet("login").getRow(2).getCell(1).getStringCellValue();
-		newuserUN = w.getSheet("login").getRow(3).getCell(0).getStringCellValue();
-		newuserPSW = w.getSheet("login").getRow(3).getCell(1).getStringCellValue();
+//		newuserUN = w.getSheet("login").getRow(3).getCell(0).getStringCellValue();
+//		newuserPSW = w.getSheet("login").getRow(3).getCell(1).getStringCellValue();
 
 	}
 	

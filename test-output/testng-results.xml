@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Browser launched successfully: Uttoron | Uttoron Bengali Community of Greater Seattle]]>
@@ -11,73 +11,15 @@
       <![CDATA[Login Sucessfull!]]>
     </line>
     <line>
-      <![CDATA[
- Clicking on 'Become a Member' under 'Membership'...]]>
-    </line>
-    <line>
-      <![CDATA[The title of the page is: Uttoron | Become a member]]>
-    </line>
-    <line>
-      <![CDATA[ Selected Membership Type: Adult]]>
-    </line>
-    <line>
-      <![CDATA[ Selected Age Group: 35-44]]>
-    </line>
-    <line>
-      <![CDATA[Entered First Name: Tarun]]>
-    </line>
-    <line>
-      <![CDATA[Entered Last Name: Ray]]>
-    </line>
-    <line>
-      <![CDATA[Entered Email: roy1235@yopmail.com]]>
-    </line>
-    <line>
-      <![CDATA[Clicked Finish & Pay]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Proceed to Pay!]]>
-    </line>
-    <line>
-      <![CDATA[Waiting for PayPal iframe...]]>
-    </line>
-    <line>
-      <![CDATA[Inside PayPal iframe. Looking for button...]]>
-    </line>
-    <line>
-      <![CDATA[PayPal button visible, clicking...]]>
-    </line>
-    <line>
-      <![CDATA[ PayPal button clicked successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Switched to PayPal Window PayPal]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on the button : Pay with Debit or Credit Card!]]>
-    </line>
-    <line>
-      <![CDATA[Passing the email address: watercolour.arijit@gmail.com]]>
-    </line>
-    <line>
-      <![CDATA[Clicked Continue to Payment button]]>
-    </line>
-    <line>
-      <![CDATA[Toggle initial state (isSelected): true]]>
-    </line>
-    <line>
-      <![CDATA[PayPal toggle successfully turned OFF]]>
-    </line>
-    <line>
       <![CDATA[Browser closed successfully!]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-02-09T18:40:51 IST" name="Default suite" finished-at="2026-02-09T18:41:56 IST" duration-ms="64956">
+  <suite started-at="2026-02-10T11:43:35 IST" name="Default suite" finished-at="2026-02-10T11:44:04 IST" duration-ms="28645">
     <groups>
     </groups>
-    <test started-at="2026-02-09T18:40:51 IST" name="Default test" finished-at="2026-02-09T18:41:56 IST" duration-ms="64956">
-      <class name="uttoronTestClasses.UttoronMembershipTest">
-        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronMembershipTest@510f3d34]" started-at="2026-02-09T18:40:51 IST" name="browserOpen" finished-at="2026-02-09T18:41:05 IST" duration-ms="13203" status="PASS">
+    <test started-at="2026-02-10T11:43:35 IST" name="Default test" finished-at="2026-02-10T11:44:04 IST" duration-ms="28645">
+      <class name="uttoronTestClasses.UttoronSponsorshipTest">
+        <test-method is-config="true" signature="browserOpen(java.lang.String)[pri:0, instance:uttoronTestClasses.UttoronSponsorshipTest@510f3d34]" started-at="2026-02-10T11:43:35 IST" name="browserOpen" finished-at="2026-02-10T11:43:45 IST" duration-ms="9793" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,7 +33,58 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method signature="BecomeMember()[pri:0, instance:uttoronTestClasses.UttoronMembershipTest@510f3d34]" started-at="2026-02-09T18:41:05 IST" name="BecomeMember" finished-at="2026-02-09T18:41:54 IST" duration-ms="49807" status="PASS">
+        <test-method signature="UserLoginAndSponsor()[pri:0, instance:uttoronTestClasses.UttoronSponsorshipTest@510f3d34]" started-at="2026-02-10T11:43:45 IST" name="UserLoginAndSponsor" finished-at="2026-02-10T11:44:03 IST" duration-ms="17696" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (ea0ff80e6647d7cbeeb3b26b99f9b27e)] -> xpath: //ul/li/a[text()='Fund Raising']/../ul/li/a[text()='Sponsor']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\Datacore\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50399}, goog:processID: 26176, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50399/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ea0ff80e6647d7cbeeb3b26b99f9b27e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (ea0ff80e6647d7cbeeb3b26b99f9b27e)] -> xpath: //ul/li/a[text()='Fund Raising']/../ul/li/a[text()='Sponsor']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\Datacore\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50399}, goog:processID: 26176, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50399/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ea0ff80e6647d7cbeeb3b26b99f9b27e
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at uttoronPageclasses.UttoronHomePage.clickSponsorUnderFundRaising(UttoronHomePage.java:87)
+at uttoronTestClasses.UttoronSponsorshipTest.UserLoginAndSponsor(UttoronSponsorshipTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
             <line>
               <![CDATA[Navigated to Login page!]]>
@@ -99,74 +92,16 @@
             <line>
               <![CDATA[Login Sucessfull!]]>
             </line>
-            <line>
-              <![CDATA[
- Clicking on 'Become a Member' under 'Membership'...]]>
-            </line>
-            <line>
-              <![CDATA[The title of the page is: Uttoron | Become a member]]>
-            </line>
-            <line>
-              <![CDATA[ Selected Membership Type: Adult]]>
-            </line>
-            <line>
-              <![CDATA[ Selected Age Group: 35-44]]>
-            </line>
-            <line>
-              <![CDATA[Entered First Name: Tarun]]>
-            </line>
-            <line>
-              <![CDATA[Entered Last Name: Ray]]>
-            </line>
-            <line>
-              <![CDATA[Entered Email: roy1235@yopmail.com]]>
-            </line>
-            <line>
-              <![CDATA[Clicked Finish & Pay]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Proceed to Pay!]]>
-            </line>
-            <line>
-              <![CDATA[Waiting for PayPal iframe...]]>
-            </line>
-            <line>
-              <![CDATA[Inside PayPal iframe. Looking for button...]]>
-            </line>
-            <line>
-              <![CDATA[PayPal button visible, clicking...]]>
-            </line>
-            <line>
-              <![CDATA[ PayPal button clicked successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Switched to PayPal Window PayPal]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on the button : Pay with Debit or Credit Card!]]>
-            </line>
-            <line>
-              <![CDATA[Passing the email address: watercolour.arijit@gmail.com]]>
-            </line>
-            <line>
-              <![CDATA[Clicked Continue to Payment button]]>
-            </line>
-            <line>
-              <![CDATA[Toggle initial state (isSelected): true]]>
-            </line>
-            <line>
-              <![CDATA[PayPal toggle successfully turned OFF]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- BecomeMember -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronMembershipTest@510f3d34]" started-at="2026-02-09T18:41:55 IST" name="browserClose" finished-at="2026-02-09T18:41:56 IST" duration-ms="1718" status="PASS">
+        </test-method> <!-- UserLoginAndSponsor -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:uttoronTestClasses.UttoronSponsorshipTest@510f3d34]" started-at="2026-02-10T11:44:03 IST" name="browserClose" finished-at="2026-02-10T11:44:04 IST" duration-ms="986" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser closed successfully!]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- uttoronTestClasses.UttoronMembershipTest -->
+      </class> <!-- uttoronTestClasses.UttoronSponsorshipTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
